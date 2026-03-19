@@ -23,14 +23,13 @@ export default function Home() {
 
       {/* 2. Recruiter Funnel Flow */}
       <AboutMe />
-      
-      {/* Social Proof Layer */}
-      <LinkedInBadge />
-      
       <Experience />
       <Certifications />
       <ProjectShowcase />
       <PhysicsSkills />
+
+      {/* 3. The Ultimate Closing (Conversion Zone) */}
+      <LinkedInBadge />
 
       {/* Persistent AI layer */}
       <ChatAssistant />
