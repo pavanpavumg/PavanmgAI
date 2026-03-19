@@ -49,7 +49,7 @@ export default function PhysicsSkills() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
           <div>
             <p className="text-emerald-500 font-mono text-xs tracking-[0.3em] mb-2 uppercase">Capabilities Matrix</p>
-            <h2 className="text-4xl font-black tracking-tighter text-white">TECHNICAL SPECTRUM</h2>
+            <h2 className="text-4xl font-black tracking-tighter text-white">CAPABILITIES MATRIX</h2>
           </div>
           <div className="text-right hidden md:block">
             <p className="text-zinc-600 text-[10px] font-mono leading-tight uppercase">

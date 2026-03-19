@@ -5,7 +5,7 @@ import ProjectCaseStudy from "@/components/ProjectCaseStudy";
 import AboutMe from "@/components/AboutMe";
 import Experience from "@/components/Experience";
 import Certifications from "@/components/Certifications";
-import { BrainCircuit, Atom, MonitorSmartphone, Terminal } from "lucide-react";
+import { BrainCircuit, MonitorSmartphone, Terminal } from "lucide-react";
 
 export default function Home() {
   return (
@@ -31,14 +31,14 @@ export default function Home() {
       {/* 3. Experience Section */}
       <Experience />
 
-      {/* 4. Certifications Section */}
+      {/* 4. Capabilities Matrix (Skills) - Now following Experience */}
+      <PhysicsSkills />
+
+      {/* 5. Certifications Section (Modal Trigger) */}
       <Certifications />
 
-      {/* 5. Flagship Project Focus (The Impressor) */}
+      {/* 6. Flagship Project Focus (The Impressor) */}
       <ProjectCaseStudy />
-
-      {/* 6. Technical Spectrum (Capabilities Matrix) */}
-      <PhysicsSkills />
 
       {/* 7. Other Projects Grid */}
       <section className="py-20 bg-black/50">
