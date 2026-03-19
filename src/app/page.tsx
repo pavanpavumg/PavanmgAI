@@ -5,6 +5,7 @@ import Certifications from "@/components/Certifications";
 import ProjectShowcase from "@/components/ProjectShowcase";
 import PhysicsSkills from "@/components/PhysicsSkills";
 import ChatAssistant from "@/components/ChatAssistant";
+import LinkedInBadge from "@/components/LinkedInBadge";
 
 export default function Home() {
   return (
@@ -20,8 +21,12 @@ export default function Home() {
         </p>
       </section>
 
-      {/* 2. Recruiter Funnel: Narrative -> Validation -> Proof of Skill -> Proof of Work -> Technical Base */}
+      {/* 2. Recruiter Funnel Flow */}
       <AboutMe />
+      
+      {/* Social Proof Layer */}
+      <LinkedInBadge />
+      
       <Experience />
       <Certifications />
       <ProjectShowcase />
