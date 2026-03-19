@@ -4,6 +4,7 @@ import PhysicsSkills from "@/components/PhysicsSkills";
 import ProjectCaseStudy from "@/components/ProjectCaseStudy";
 import AboutMe from "@/components/AboutMe";
 import Experience from "@/components/Experience";
+import Certifications from "@/components/Certifications";
 import { BrainCircuit, Atom, MonitorSmartphone, Terminal } from "lucide-react";
 
 export default function Home() {
@@ -30,13 +31,16 @@ export default function Home() {
       {/* 3. Experience Section */}
       <Experience />
 
-      {/* 4. Flagship Project Focus (The Impressor) */}
+      {/* 4. Certifications Section */}
+      <Certifications />
+
+      {/* 5. Flagship Project Focus (The Impressor) */}
       <ProjectCaseStudy />
 
-      {/* 5. Skills Physics Lab */}
+      {/* 6. Technical Spectrum (Capabilities Matrix) */}
       <PhysicsSkills />
 
-      {/* 6. Other Projects Grid */}
+      {/* 7. Other Projects Grid */}
       <section className="py-20 bg-black/50">
         <div className="max-w-7xl mx-auto px-4 mb-12">
           <h3 className="text-sm font-mono text-zinc-600 uppercase tracking-[0.3em]">Extended Portfolio</h3>
