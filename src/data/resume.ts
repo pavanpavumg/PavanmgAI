@@ -3,6 +3,6 @@
 
 export const resumeData = {
   // The default active resume
-  url: "/Pavan_MG_Resume.pdf", // Update this to match your PDF filename in the public folder
+  url: "/PAVAN_M_G_SDE.pdf", // Updated to the SDE resume
   label: "CV",
 };
