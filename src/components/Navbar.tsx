@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { resumeData } from "@/data/resume";
 
 const socialLinks = [
   { 
@@ -54,10 +55,15 @@ export default function Navbar() {
           <div className="h-4 w-px bg-white/10" />
 
           {/* Resume Quick-Access */}
-          <button className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 transition-all group">
+          <a 
+            href={resumeData.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 transition-all group"
+          >
             <FileText className="w-3.5 h-3.5 text-emerald-500" />
-            <span className="text-[10px] font-bold text-emerald-500 uppercase">CV</span>
-          </button>
+            <span className="text-[10px] font-bold text-emerald-500 uppercase">{resumeData.label}</span>
+          </a>
         </div>
       </div>
     </motion.nav>
