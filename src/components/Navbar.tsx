@@ -10,12 +10,12 @@ const socialLinks = [
   },
   { 
     name: "LinkedIn", 
-    href: "https://linkedin.com/in/pavan-m-g/",
+    href: "https://www.linkedin.com/in/pavan-m-g/",
     icon: <Linkedin className="w-4 h-4" /> 
   },
   { 
     name: "Email", 
-    href: "mailto:pavanmg9964@gmail.com", 
+    href: "mailto:[pavanmg9964@gmail.com]", 
     icon: <Mail className="w-4 h-4" /> 
   },
 ];

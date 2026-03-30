@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ChatAssistant from "@/components/ChatAssistant";
 import Navbar from "@/components/Navbar";
+import FluidCursor from "@/components/FluidCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <body className={`${inter.className} antialiased bg-[#080808]`}>
+        <FluidCursor />
         <Navbar />
-        {children}
+        <div className="relative z-10">
+          {children}
+        </div>
         <ChatAssistant />
       </body>
     </html>
