@@ -1,8 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Cpu, Terminal, Search, Zap, Activity } from "lucide-react";
+import { ArrowUpRight, Cpu, Terminal, Search, Zap, Activity, Dumbbell } from "lucide-react";
 
 const projects = [
+  {
+    title: "AI-Driven Personalized Fitness Coach & Biometric Analyzer",
+    metrics: "Real-Time Pose Estimation",
+    description: "Developed a comprehensive AI-powered health platform that combines real-time movement analysis with non-invasive biometric monitoring. This system addresses the lack of accessible professional coaching and health tracking by turning a standard laptop webcam into a virtual personal trainer and digital nutritionist.",
+    tags: ["Python", "MediaPipe", "OpenCV", "Adaptive Analytics"],
+    icon: <Dumbbell className="w-5 h-5 text-emerald-500" />,
+    className: "md:col-span-3 border-emerald-500/30 bg-emerald-500/5", // Featured full-width slot
+  },
   {
     title: "Autonomous Receipt & Fiscal Analyzer",
     metrics: "98% OCR Accuracy",
